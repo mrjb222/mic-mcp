@@ -1,0 +1,21 @@
+{
+  "steps": [
+    "1. Greet the caller politely and confidently. If name is known, use it.",
+    "2. If name is missing, request and confirm by spelling it out.",
+    "3. If email is missing, request it and confirm using required spelling rules.",
+    "4. Set expectations: 'I have a few quick questions so we can better understand how to help you, then we'll look at scheduling a call with one of our team members.'",
+    "5. Ask each qualifying question in order, waiting for the caller to finish before proceeding.",
+    "6. Store each answer in the CRM as they respond.",
+    "7. After the final question, calculate qualification based on portfolio value.",
+    "8. If qualified: say, 'Great, the next step is to schedule a call with our team.' Then book the soonest available time.",
+    "9. If unqualified: politely end the call and reassure them that the information will be passed to the team.",
+    "10. Before ending the call—regardless of qualification—confirm the spelling of their first and last name and repeat their email.",
+    "11. Close professionally: 'You're all set. A confirmation will be sent to your email. Thank you for your time today.'"
+  ],
+  "tone_reminders": [
+    "Be concise.",
+    "Speak clearly.",
+    "Never rush the listener.",
+    "Keep the conversation calm and professional."
+  ]
+}
