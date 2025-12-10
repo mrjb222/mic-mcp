@@ -1,0 +1,14 @@
+{
+  "booking_method": "internal_calendar_tool",
+  "backup_method": "Send caller to https://mastermindinvestmentclub.com/apply if they prefer to apply before scheduling.",
+  "booking_language": {
+    "invitation": "The next step is to schedule a private call with our team so we can explore whether membership may be a good fit for you.",
+    "time_selection": "I can help you get something on the calendar. What day works best for you?",
+    "confirmation": "Your call is scheduled. A confirmation email will be sent shortly."
+  },
+  "rules": {
+    "never_offer_financial_advice": true,
+    "never_disclose_investment_details": true,
+    "never_discuss_returns_or_performance": true
+  }
+}
