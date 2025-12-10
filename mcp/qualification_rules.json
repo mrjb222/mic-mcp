@@ -1,0 +1,30 @@
+{
+  "qualification_threshold_usd": 100000,
+  "qualifying_questions": [
+    {
+      "question": "Do you currently use a financial advisor for any of your investment needs?",
+      "field": "uses_financial_advisor",
+      "type": "text"
+    },
+    {
+      "question": "Are you currently happy with the investment returns inside of your portfolio?",
+      "field": "portfolio_satisfaction",
+      "type": "text"
+    },
+    {
+      "question": "What kind of investments are you currently in? Stocks, bonds, mutual funds, real estate, or something else?",
+      "field": "current_investments",
+      "type": "text"
+    },
+    {
+      "question": "What is the rough estimate of your entire investment portfolio, including stocks, bonds, retirement accounts, and so on?",
+      "field": "estimated_portfolio_value",
+      "type": "numeric"
+    }
+  ],
+  "qualification_logic": {
+    "rule": "If estimated_portfolio_value >= qualification_threshold_usd, the caller qualifies.",
+    "action_if_qualified": "Proceed to booking a call immediately.",
+    "action_if_unqualified": "Thank the caller, store answers in CRM, end the call politely without booking."
+  }
+}
