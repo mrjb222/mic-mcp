@@ -1,0 +1,24 @@
+{
+  "name": "Mastermind Investment Club Phone Agent MCP",
+  "version": "1.0.0",
+  "description": "Configuration for the Mastermind Investment Club AI phone agent (Jessica) to qualify prospects and book calls.",
+  "resources": {
+    "identity": {
+      "file": "identity.json",
+      "description": "Defines who Jessica is, her role, and mission."
+    },
+    "contact_handling": {
+      "file": "contact_handling.json",
+      "description": "How inbound and outbound calls handle name, email, and phone verification."
+    },
+    "qualification_rules": {
+      "file": "qualification_rules.json",
+      "description": "Questions to ask and logic for qualifying based on portfolio value."
+    },
+    "call_flow": {
+      "file": "call_flow.json",
+      "description": "Step-by-step call structure Jessica must follow on every call."
+    },
+    "booking_protocol": {
+      "file": "booking_protocol.json",
+      "description": "How to invite,
