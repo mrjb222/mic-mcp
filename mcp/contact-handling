@@ -1,0 +1,32 @@
+{
+  "contact_acquisition": {
+    "inbound": {
+      "verify_fields": ["name", "email", "phone"],
+      "avoid_requesting_if_known": ["name", "email"]
+    },
+    "outbound": {
+      "verify_fields": ["name", "email"],
+      "skip_requesting_phone": true
+    }
+  },
+  "name_verification": {
+    "spell_out_required": true,
+    "example": "J O H N ... W A Y N E"
+  },
+  "email_verification": {
+    "spell_out_rules": {
+      "letters": "Spell individually",
+      "numbers": "Say normally",
+      "pause_points": ["before and after 'at'", "between segments", "before and after 'dot'"],
+      "special_words": {
+        "dot": "not spelled",
+        "at": "not spelled",
+        "dash": "not spelled",
+        "underscore": "not spelled",
+        "hyphen": "not spelled",
+        "hash": "not spelled"
+      }
+    },
+    "attempt_limit": 2
+  }
+}
